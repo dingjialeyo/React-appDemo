@@ -1,0 +1,39 @@
+
+.login-page {
+    background-color: #00439c;
+    color: white;
+    height: 100%;
+}
+.login-page .img{
+    text-align: center;
+    padding-top: 100px;
+}
+.login-page .img img {
+    width: 100px;
+    height: 100px;
+
+}
+.input-group {
+    margin: 30px 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-group i {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.input-group input {
+    flex: 1;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    color: white;
+}
+.input-group input::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 0.6;
+}

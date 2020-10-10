@@ -1,0 +1,18 @@
+.header .am-navbar{
+    background-color: #00439c;
+}
+
+.header .am-navbar .am-navbar-left, .header .am-navbar .am-navbar-right{
+    flex: 0 1 auto;
+}
+
+.header .am-navbar .am-navbar-title {
+    margin-left: 15px;
+}
+.header .am-navbar .am-search {
+    flex: 1;
+    background-color: #00439c;
+}
+.am-search-cancel {
+    color: #fff;
+}
