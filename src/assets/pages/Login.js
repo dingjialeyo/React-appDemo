@@ -8,7 +8,7 @@ import FormInput from '../../components/FormInput'
 import FormBtn from '../../components/FormBtn'
 
 import 'antd-mobile/dist/antd-mobile.css';  // or 'antd-mobile/dist/antd-mobile.less'
-
+import {Link} from 'react-router'
 
 export default class Login extends Component {
     render() {
@@ -23,7 +23,9 @@ export default class Login extends Component {
                     {/* pwdInput */}
                     <FormInput type="password" icon="icon-mima" value="密码" />
                     {/* 登录按钮 */}
+                    <Link to="/home">
                     <FormBtn>登录</FormBtn>
+                    </Link>
                 </form>
             </div>
         )

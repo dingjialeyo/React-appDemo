@@ -1,5 +1,5 @@
 .header .am-navbar{
-    background-color: #00439c;
+    background-color: #fff;
 }
 
 .header .am-navbar .am-navbar-left, .header .am-navbar .am-navbar-right{
@@ -11,8 +11,12 @@
 }
 .header .am-navbar .am-search {
     flex: 1;
-    background-color: #00439c;
+    background-color: #fff;
 }
 .am-search-cancel {
-    color: #fff;
+    color: #ccc;
+}
+.am-search-input {
+    border: 1px solid #eee;
+    border-radius: 20px;
 }

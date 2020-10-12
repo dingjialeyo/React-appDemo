@@ -1,0 +1,19 @@
+.list_item {
+    padding: 0 10px;
+    background-color: #eee;
+}
+.item-title {
+    flex: 2 !important;
+    margin-left: 20px !important;
+}
+.item-title h3 {
+    color: green;
+}
+.item-title p {
+    color: #333;
+}
+.list-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0 5px 10px;
+}
