@@ -2,13 +2,17 @@ import React, { Component } from 'react'
 import { NavBar, SearchBar } from 'antd-mobile';
 import Img from '../components/Img'
 import '../assets/css/header.css'
+import {Link} from 'react-router'
+
 export default class Header extends Component {
     render() {
         return (
             <div className="header">
                 <NavBar
                     leftContent={[
+                        <Link to="/home">
                         <Img src="logo192.png" height="30" />
+                        </Link>
                     ]}
                     // mode="dark"  背景颜色
                     // icon={<Icon type="left" />}

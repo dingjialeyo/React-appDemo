@@ -32,7 +32,7 @@
     background-color: transparent;
     border: 0;
     outline: none;
-    color: white;
+    color: #333;
 }
 .input-group input::-webkit-input-placeholder {
     color: #333;

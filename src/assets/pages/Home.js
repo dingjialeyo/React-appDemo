@@ -4,6 +4,7 @@ import Banner from '../../components/Banner'
 import Subject from '../../components/Subject'
 import List from '../../components/List'
 import Tab from '../../components/Tab'
+import TabBars from '../../components/TabBars'
 
 
 
@@ -22,6 +23,8 @@ export default class Home extends Component {
                 <List />
                 {/* Tab栏 */}
                 <Tab />
+                {/* 底部导航栏 */}
+                <TabBars />
             </div>
         )
     }
